@@ -14,13 +14,13 @@ Code for SSPNet: Scale Selection Pyramid Network for Tiny Person Detection from 
 
 ## Visualization of CAM
 <p align="center">
-<img src=https://github.com/MingboHong/SSPNet-Scale-Selection-Pyramid-Network-for-Tiny-Person-Detection-from-UAV-Images/blob/main/img/cam.png>
+<img src=https://github.com/MingboHong/SSPNet-Scale-Selection-Pyramid-Network-for-Tiny-Person-Detection-from-UAV-Images/blob/main/img/cam.png width="80%" height="80%">
 </p>
 
 
 ## Qualitative results
 <p align="center">
-<img src=https://github.com/MingboHong/SSPNet-Scale-Selection-Pyramid-Network-for-Tiny-Person-Detection-from-UAV-Images/blob/main/img/visualization.png>
+<img src=https://github.com/MingboHong/SSPNet-Scale-Selection-Pyramid-Network-for-Tiny-Person-Detection-from-UAV-Images/blob/main/img/visualization.png width="80%" height="80%">
 </p>
 
 ## Note：

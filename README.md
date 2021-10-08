@@ -9,11 +9,7 @@ With the increasing demand for search and rescue, it is highly demanded to detec
 
 
 ## Note：
-Sorry for too late！
-
-Sorry for too late！
-
-Sorry for too late！
+Sorry for being late！
 
 
 

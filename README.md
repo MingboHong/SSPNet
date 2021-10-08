@@ -13,7 +13,7 @@ Code for SSPNet: Scale Selection Pyramid Network for Tiny Person Detection from 
 
 ## How to use?
 
->  config file
+>  Config file
 >> config/sspnet/faster_rcnn_r50_sspnet_1x_coco.py (Anchor-based).  
 >> config/sspnet/fovea_r50_sspnet_4x4_1x_coco.py (Anchor-free).
 
@@ -21,7 +21,7 @@ Code for SSPNet: Scale Selection Pyramid Network for Tiny Person Detection from 
 > Scale Selection Pyramid Network
 >> mmdet/models/necks/ssfpn.py
 
-> weight sampler
+> Weight Sampler
 >> mmdet/core/bbox/samplers/ic_neg_sampler.py 
 
 ## Visualization of CAM

@@ -11,6 +11,18 @@ Code for SSPNet: Scale Selection Pyramid Network for Tiny Person Detection from 
 **Illustrations of FPN (a) and our SSPNet (b), where the blue boxes indicate that the object that can not be matched at the current layer will be regarded as a negative sample, and the opposite is a positive sample. The SSM will filter the features flowing from deep layers to the next layer, where those objects that can be both matched at adjacent layers will be reserved, and others (i.e., background, objects that can not be both matched at adjacent layers) will be weakened.**
 
 
+## How to use?
+
+>  config file
+>> config/sspnet/faster_rcnn_r50_sspnet_1x_coco.py (Anchor-based).  
+>> config/sspnet/fovea_r50_sspnet_4x4_1x_coco.py (Anchor-free).
+
+
+> Scale Selection Pyramid Network
+>> mmdet/models/necks/ssfpn.py
+
+> weight sampler
+>> mmdet/core/bbox/samplers/ic_neg_sampler.py 
 
 ## Visualization of CAM
 <p align="center">
@@ -27,8 +39,8 @@ Code for SSPNet: Scale Selection Pyramid Network for Tiny Person Detection from 
 Sorry for being late！
 
 ## TOD
-- [ ] relase label
-- [ ] relase pretrain model
+- [ ] release label
+- [ ] release pretrain model
 - [ ] add quantitative results
 
 ## Citation

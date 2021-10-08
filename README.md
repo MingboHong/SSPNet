@@ -1,6 +1,6 @@
 ## SSPNet: Scale Selection Pyramid Network for Tiny Person Detection from UAV Images ([IEEE GRSL 2021](https://ieeexplore.ieee.org/document/9515145))
 
-Code for SSPNet: Scale Selection Pyramid Network for Tiny Person Detection from UAV Images. [[PDF](https://arxiv.org/abs/2107.01548)]
+Code for SSPNet: Scale Selection Pyramid Network for Tiny Person Detection from UAV Images. [[PDF](https://arxiv.org/abs/2107.01548)].  Our SSPNet is based on [mmdetection](https://github.com/open-mmlab/mmdetection).
 
 
 <p align="center">
@@ -56,6 +56,9 @@ If you use this code or ideas from the paper for your research, please cite our 
   publisher={IEEE}
 }
 ```
+
+## Reference
+[1] Chen, Kai, et al. "MMDetection: Open mmlab detection toolbox and benchmark." arXiv preprint arXiv:1906.07155 (2019).
 
 ## Contact
 kris@stu.scu.edu.cn

@@ -1,6 +1,6 @@
-## SSPNet: Scale Selection Pyramid Network for Tiny Person Detection from UAV Images
+## SSPNet: Scale Selection Pyramid Network for Tiny Person Detection from UAV Images (IEEE GRSL 2021)
 
-With the increasing demand for search and rescue, it is highly demanded to detect objects of interest in large-scale images captured by unmanned aerial vehicles (UAVs), which is quite challenging due to extremely small scales of objects. Most existing methods employed a feature pyramid network (FPN) to enrich shallow layers’ features by combining deep layers’ contextual features. However, under the limitation of the inconsistency in gradient computation across different layers, the shallow layers in FPN are not fully exploited to detect tiny objects. In this article, we propose a scale selection pyramid network (SSPNet) for tiny person detection, which consists of three components: context attention module (CAM), scale enhancement module (SEM), and scale selection module (SSM). CAM takes account of context information to produce hierarchical attention heatmaps. SEM highlights features of specific scales at different layers, leading the detector to focus on objects of specific scales instead of vast backgrounds. SSM exploits adjacent layers’ relationships to fulfill suitable feature sharing between deep layers and shallow layers, thereby avoiding the inconsistency in gradient computation across different layers. Besides, we propose a weighted negative sampling (WNS) strategy to guide the detector to select more representative samples. Experiments on the TinyPerson benchmark show that our method outperforms other state-of the-art (SOTA) detectors.
+Code for SSPNet: Scale Selection Pyramid Network for Tiny Person Detection from UAV Images. [[PDF](https://arxiv.org/abs/2107.01548)]
 
 
 <p align="center">
@@ -26,7 +26,10 @@ With the increasing demand for search and rescue, it is highly demanded to detec
 ## Note：
 Sorry for being late！
 
-
+## TOD
+- [ ] relase label
+- [ ] relase pretrain model
+- [ ] add quantitative results
 
 ## Citation
 

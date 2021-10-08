@@ -6,7 +6,7 @@ With the increasing demand for search and rescue, it is highly demanded to detec
 </p>
 
 <p align="center">
-(a) FPN  (b)SSPNet
+(a) FPN               (b) SSPNet
 </p>
 
 ## Todo List:

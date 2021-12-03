@@ -53,23 +53,28 @@ pip install -r requirements.txt
 
 ## How to train?
 
+Multiple GPU:
 ```
 ./dist_train.sh ../config/sspnet/faster_rcnn_r50_sspnet_1x_coco.py 2
 ```
-or
+
+Single GPU:
 ```
-./dist_train.sh ../config/sspnet/fovea_r50_sspnet_4x4_1x_coco.py 2
+python train.py ../config/sspnet/faster_rcnn_r50_sspnet_1x_coco.py 
 ```
 ## How to test?
+Multiple GPU:
+
 ```
 ./dist_test.sh ../config/sspnet/faster_rcnn_r50_sspnet_1x_coco.py ../{your_checkpoint_path} 2 --eval bbox 
 ```
-or
+Single GPU:
+
 ```
-./dist_test.sh ../config/sspnet/fovea_r50_sspnet_4x4_1x_coco.py ../{your_checkpoint_path} 2 --eval bbox 
+python test.py ../config/sspnet/faster_rcnn_r50_sspnet_1x_coco.py ../{your_checkpoint_path} --eval bbox 
 ```
 ## How to get dataset?
-You can download the TinyPerson Dataset in [here](https://github.com/ucas-vg/TinyBenchmark). Our custom dataset is coming soon.
+You can download the TinyPerson Dataset in [here](https://github.com/ucas-vg/TinyBenchmark).
 
 ## Pretrained model
 faster_rcnn_r50_sspnet:

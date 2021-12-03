@@ -50,6 +50,7 @@ pip install -r requirements.txt
 > Weight Sampler
 >> mmdet/core/bbox/samplers/ic_neg_sampler.py 
 
+
 ## How to train?
 
 ```
@@ -67,7 +68,7 @@ or
 ```
 ./dist_test.sh ../config/sspnet/fovea_r50_sspnet_4x4_1x_coco.py ../{your_checkpoint_path} 2 --eval bbox 
 ```
-## How to get dataset？
+## How to get dataset?
 You can download the TinyPerson Dataset in [here](https://github.com/ucas-vg/TinyBenchmark). Our custom dataset is coming soon.
 
 ## Pretrained model
@@ -78,8 +79,6 @@ Google Drive:https://drive.google.com/file/d/1IfPCt5xZqqBJ3sYVIuD5F9l29Jcy2Hn1/v
 Baidu Drive: https://pan.baidu.com/s/1Ssrf8VEBX8lXDTPn5025zQ  ```passwd:l25j```
 
 ## Customized label
-faster_rcnn_r50_sspnet:
-
 Google Drive:https://drive.google.com/file/d/1KNACRARakvBYUuYcMUTgrfE2II_balZx/view?usp=sharing
 
 Baidu Drive: https://pan.baidu.com/s/1-EE-libZHlwswcmYnJtVkg ```passwd:x433```

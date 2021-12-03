@@ -89,8 +89,8 @@ class SingleStageDetector(BaseDetector):
 
         losses = dict()
         losses.update(loss_att)
-        losses = self.bbox_head.forward_train(x, img_metas, gt_bboxes,
-                                              gt_labels, gt_bboxes_ignore)
+        losses.update(self.bbox_head.forward_train(x, img_metas, gt_bboxes,
+                                              gt_labels, gt_bboxes_ignore))
         return losses
 
     def simple_test(self, img, img_metas, rescale=False):

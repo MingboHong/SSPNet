@@ -4,7 +4,7 @@ Code (based on [mmdetection](https://github.com/open-mmlab/mmdetection)) for SSP
 
 
 <p align="center">
-<img src=https://github.com/MingboHong/SSPNet-Scale-Selection-Pyramid-Network-for-Tiny-Person-Detection-from-UAV-Images/blob/main/img/img1.png width="600px" height="450px">
+<img src=https://github.com/MingboHong/SSPNet-Scale-Selection-Pyramid-Network-for-Tiny-Person-Detection-from-UAV-Images/blob/master/img/img1.png width="600px" height="450px">
 </p>
 
 
@@ -14,13 +14,13 @@ Code (based on [mmdetection](https://github.com/open-mmlab/mmdetection)) for SSP
 
 ## Visualization of CAM
 <p align="center">
-<img src=https://github.com/MingboHong/SSPNet-Scale-Selection-Pyramid-Network-for-Tiny-Person-Detection-from-UAV-Images/blob/main/img/cam.png width="80%" height="80%">
+<img src=https://github.com/MingboHong/SSPNet-Scale-Selection-Pyramid-Network-for-Tiny-Person-Detection-from-UAV-Images/blob/master/img/cam.png width="80%" height="80%">
 </p>
 
 
 ## Qualitative results
 <p align="center">
-<img src=https://github.com/MingboHong/SSPNet-Scale-Selection-Pyramid-Network-for-Tiny-Person-Detection-from-UAV-Images/blob/main/img/visualization.png width="80%" height="80%">
+<img src=https://github.com/MingboHong/SSPNet-Scale-Selection-Pyramid-Network-for-Tiny-Person-Detection-from-UAV-Images/blob/master/img/visualization.png width="80%" height="80%">
 </p>
 
 

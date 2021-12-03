@@ -23,6 +23,20 @@ We have release the full version code of SSPNet. Code (based on [mmdetection](ht
 <img src=https://github.com/MingboHong/SSPNet-Scale-Selection-Pyramid-Network-for-Tiny-Person-Detection-from-UAV-Images/blob/master/img/visualization.png width="80%" height="80%">
 </p>
 
+## Requirements
+
+```
+pytorch = 1.10.0
+python = 3.7.10
+cuda = 10.2
+numpy = 1.21.2
+mmcv-full = 1.3.18 
+mmdet = 2.19.0
+```
+You can also use this command
+```
+pip install -r requirements.txt
+```
 
 ## How to use?
 
@@ -56,12 +70,23 @@ or
 ## How to get dataset？
 You can download the TinyPerson Dataset in [here](https://github.com/ucas-vg/TinyBenchmark). Our custom dataset is coming soon.
 
-## Note：
-Sorry for being late！
+## Pretrained model
+faster_rcnn_r50_sspnet:
+
+Google Drive:https://drive.google.com/file/d/1IfPCt5xZqqBJ3sYVIuD5F9l29Jcy2Hn1/view?usp=sharing
+
+Baidu Drive: https://pan.baidu.com/s/1Ssrf8VEBX8lXDTPn5025zQ  ```passwd:l25j```
+
+## Customized label
+faster_rcnn_r50_sspnet:
+
+Google Drive:https://drive.google.com/file/d/1KNACRARakvBYUuYcMUTgrfE2II_balZx/view?usp=sharing
+
+Baidu Drive: https://pan.baidu.com/s/1-EE-libZHlwswcmYnJtVkg ```passwd:x433```
 
 ## TOD
-- [ ] release customized label
-- [ ] release pretrain model
+- [x] release customized label
+- [x] release pretrain model
 - [x] add quantitative results
 
 ## Citation

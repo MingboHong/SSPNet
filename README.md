@@ -1,6 +1,6 @@
 ## SSPNet: Scale Selection Pyramid Network for Tiny Person Detection from UAV Images ([IEEE GRSL 2021](https://ieeexplore.ieee.org/document/9515145))
-
-Code (based on [mmdetection](https://github.com/open-mmlab/mmdetection)) for SSPNet: Scale Selection Pyramid Network for Tiny Person Detection from UAV Images. [[PDF](https://arxiv.org/abs/2107.01548)].
+## News
+We have release the full version code of SSPNet. Code (based on [mmdetection](https://github.com/open-mmlab/mmdetection)) for SSPNet: Scale Selection Pyramid Network for Tiny Person Detection from UAV Images. [[PDF](https://arxiv.org/abs/2107.01548)].
 
 
 <p align="center">
@@ -36,6 +36,23 @@ Code (based on [mmdetection](https://github.com/open-mmlab/mmdetection)) for SSP
 > Weight Sampler
 >> mmdet/core/bbox/samplers/ic_neg_sampler.py 
 
+## How to train?
+
+```
+./dist_train.sh ../config/sspnet/faster_rcnn_r50_sspnet_1x_coco.py 2
+```
+or
+```
+./dist_train.sh ../config/sspnet/fovea_r50_sspnet_4x4_1x_coco.py 2
+```
+## How to test?
+```
+./dist_test.sh ../config/sspnet/faster_rcnn_r50_sspnet_1x_coco.py ../{your_checkpoint_path} 2 --eval bbox 
+```
+or
+```
+./dist_test.sh ../config/sspnet/fovea_r50_sspnet_4x4_1x_coco.py ../{your_checkpoint_path} 2 --eval bbox 
+```
 ## How to get dataset？
 You can download the TinyPerson Dataset in [here](https://github.com/ucas-vg/TinyBenchmark). Our custom dataset is coming soon.
 

@@ -92,11 +92,6 @@ Single GPU:
 python test.py ../config/sspnet/faster_rcnn_r50_sspnet_1x_coco.py ../{your_checkpoint_path} --eval bbox 
 ```
 
-## Customized label
-Google Drive:https://drive.google.com/file/d/1KNACRARakvBYUuYcMUTgrfE2II_balZx/view?usp=sharing
-
-Baidu Drive: https://pan.baidu.com/s/1-EE-libZHlwswcmYnJtVkg ```passwd:x433```
-
 ## TOD
 - [x] release customized label
 - [x] release pretrain model

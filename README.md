@@ -53,8 +53,11 @@ pip install -r requirements.txt
 
 1) Download the [TinyPerson Dataset](https://github.com/ucas-vg/TinyBenchmark)
 2) Install [mmdetection](https://github.com/open-mmlab/mmdetection)
-3) Edit the ```dataset path``` in ```./configs/_base_/datasets/coco_detection.py ```
+3) Download our customized label ([Google Drive](https://drive.google.com/file/d/1KNACRARakvBYUuYcMUTgrfE2II_balZx/view?usp=sharing), [Baidu Drive](https://pan.baidu.com/s/1-EE-libZHlwswcmYnJtVkg) ```passwd:x433```)
+4) Edit the ```data_root, ann_file, img_prefix``` in ```./configs/_base_/datasets/coco_detection.py ```
 
+
+👇 Core File 👇
 >  Config file
 >> config/sspnet/faster_rcnn_r50_sspnet_1x_coco.py (Anchor-based).  
 >> config/sspnet/fovea_r50_sspnet_4x4_1x_coco.py (Anchor-free).
@@ -88,8 +91,6 @@ Single GPU:
 ```
 python test.py ../config/sspnet/faster_rcnn_r50_sspnet_1x_coco.py ../{your_checkpoint_path} --eval bbox 
 ```
-## How to get dataset?
-You can download the TinyPerson Dataset in [here](https://github.com/ucas-vg/TinyBenchmark).
 
 ## Customized label
 Google Drive:https://drive.google.com/file/d/1KNACRARakvBYUuYcMUTgrfE2II_balZx/view?usp=sharing

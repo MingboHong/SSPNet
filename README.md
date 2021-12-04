@@ -51,6 +51,10 @@ pip install -r requirements.txt
 
 ## How to use?
 
+1) Download the [TinyPerson Dataset]((https://github.com/ucas-vg/TinyBenchmark))
+2) Install [mmdetection](https://github.com/open-mmlab/mmdetection)
+3) Edit the ```dataset path``` in ```./configs/_base_/datasets/coco_detection.py ```
+
 >  Config file
 >> config/sspnet/faster_rcnn_r50_sspnet_1x_coco.py (Anchor-based).  
 >> config/sspnet/fovea_r50_sspnet_4x4_1x_coco.py (Anchor-free).

@@ -11,6 +11,17 @@ We have released the full version code of SSPNet. Code (based on [mmdetection](h
 **Illustrations of FPN (a) and our SSPNet (b), where the blue boxes indicate that the object that can not be matched at the current layer will be regarded as a negative sample, and the opposite is a positive sample. The SSM will filter the features flowing from deep layers to the next layer, where those objects that can be both matched at adjacent layers will be reserved, and others (i.e., background, objects that can not be both matched at adjacent layers) will be weakened.**
 
 
+## Performance
+
+
+  
+  
+| model                  | Anchor   | AP50    | Params  | Flops    | Speed   | Download |
+|:-----------------------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| faster_rcnn_r50_sspnet | ✔       | 60.87   |    -     |     -     |       -  |   [Google Drive](https://drive.google.com/file/d/1IfPCt5xZqqBJ3sYVIuD5F9l29Jcy2Hn1/view) <br> [Baidu Drive](https://pan.baidu.com/s/1Ssrf8VEBX8lXDTPn5025zQ?errmsg=Auth+Login+Params+Not+Corret&errno=2&ssnerror=0) (Passwd:l25j) |                   
+| fovea_r50_sspnet       |       -   | 58.49   |   -      |     -     |     -    |    [Google Drive](https://drive.google.com/file/d/1z-PWF9elBOk8K4iT6iXf1hoHaHBLAc4n/view) <br> [Baidu Drive](https://pan.baidu.com/s/1KfRkI4DfF-MElIozPAt7xw) (Passwd:ikit) |
+
+
 
 ## Visualization of CAM
 <p align="center">
@@ -75,13 +86,6 @@ python test.py ../config/sspnet/faster_rcnn_r50_sspnet_1x_coco.py ../{your_check
 ```
 ## How to get dataset?
 You can download the TinyPerson Dataset in [here](https://github.com/ucas-vg/TinyBenchmark).
-
-## Pretrained model
-faster_rcnn_r50_sspnet:
-
-Google Drive:https://drive.google.com/file/d/1IfPCt5xZqqBJ3sYVIuD5F9l29Jcy2Hn1/view?usp=sharing
-
-Baidu Drive: https://pan.baidu.com/s/1Ssrf8VEBX8lXDTPn5025zQ  ```passwd:l25j```
 
 ## Customized label
 Google Drive:https://drive.google.com/file/d/1KNACRARakvBYUuYcMUTgrfE2II_balZx/view?usp=sharing

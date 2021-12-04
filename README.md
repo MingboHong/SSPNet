@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 ## How to use?
 
-1) Download the [TinyPerson Dataset]((https://github.com/ucas-vg/TinyBenchmark))
+1) Download the [TinyPerson Dataset](https://github.com/ucas-vg/TinyBenchmark)
 2) Install [mmdetection](https://github.com/open-mmlab/mmdetection)
 3) Edit the ```dataset path``` in ```./configs/_base_/datasets/coco_detection.py ```
 

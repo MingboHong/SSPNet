@@ -71,7 +71,7 @@ pip install -r requirements.txt
 
 ## How to train?
 
-Multiple GPU:
+Multiple GPUs:
 ```
 ./dist_train.sh ../config/sspnet/faster_rcnn_r50_sspnet_1x_coco.py 2
 ```
@@ -81,7 +81,7 @@ Single GPU:
 python train.py ../config/sspnet/faster_rcnn_r50_sspnet_1x_coco.py 
 ```
 ## How to test?
-Multiple GPU:
+Multiple GPUs:
 
 ```
 ./dist_test.sh ../config/sspnet/faster_rcnn_r50_sspnet_1x_coco.py ../{your_checkpoint_path} 2 --eval bbox 
@@ -93,9 +93,7 @@ python test.py ../config/sspnet/faster_rcnn_r50_sspnet_1x_coco.py ../{your_check
 ```
 
 ## TOD
-- [x] release customized label
-- [x] release pretrain model
-- [x] add quantitative results
+- [ ] Swin-Transformer + SSFPN + label assignment for tiny object.
 
 ## Citation
 

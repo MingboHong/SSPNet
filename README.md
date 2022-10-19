@@ -94,8 +94,6 @@ Single GPU:
 python test.py ../config/sspnet/faster_rcnn_r50_sspnet_1x_coco.py ../{your_checkpoint_path} --eval bbox 
 ```
 
-## TOD
-- [ ] Swin-Transformer + SSFPN + label assignment for tiny object.
 
 ## Citation
 

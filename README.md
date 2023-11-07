@@ -114,4 +114,4 @@ If you use this code or ideas from the paper for your research, please cite our 
 
 [2] Yu, Xuehui, et al. "Scale match for tiny person detection." Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision. 2020.
 ## Contact
-kris@stu.scu.edu.cn
+mingbohong97@gmail.com
